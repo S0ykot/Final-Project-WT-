@@ -196,7 +196,7 @@ function getOrderList($id)
 function searchProduct($ProductName)
 {
 	$conn = getConnection();
-	$sql = "select name from product where name like '%{$ProductName}%'";
+	$sql = "select name,image from product where name like '%{$ProductName}%'";
 	$result = mysqli_query($conn, $sql);
 	while($getResult = mysqli_fetch_assoc($result))
 	{

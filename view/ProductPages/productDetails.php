@@ -84,7 +84,7 @@ if(isset($_GET['product']))
 								<td rowspan="4" width="5%"></td>
 							</tr>
 							<tr>
-								<td width="20%"><img src="../Images/Nev.jpg" alt="Product Picture" height="400px" width="280px"></td>
+								<td width="20%"><img src="../../upload/<?=$getProduct[0]['image'];?>" alt="Product Picture" height="400px" width="280px"></td>
 								<td width="10%"></td>
 								<td id="productDetails">
 									Product Name: <span id="productname"><?=$getProduct[0]['name']?></span><br><br>

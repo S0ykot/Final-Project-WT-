@@ -86,9 +86,9 @@ if(isset($_POST['btn']))
 							
 					<div id="productBlock">
 						<table border="0px" width="100%" cellpadding="0px" cellspacing="0px">
-						<tr><td colspan="3" align="center" height="30px" bgcolor="dodgerblue">**Hot Deals**</td></tr>
+						<tr><td colspan="3" align="center" height="30px" bgcolor="dodgerblue"></td></tr>
 						<tr>
-							<td width="20%" valign="top" align="center" bgcolor="#E8EBEC"><font color="tomato">Camera <br> Accessories</font></td>
+							<td width="20%" valign="top" align="center" bgcolor="#E8EBEC"><font color="tomato"><br> </font></td>
 							<td>
 								<table border="0px" width="100%" cellpadding="0px" cellspacing="0px">									
 									<?php
@@ -118,7 +118,7 @@ if(isset($_POST['btn']))
 											?>
 											<tr>
 												<td width="5%"></td>
-												<td width="20%"> <img src="../Images/camera.jpg" alt="" height="125px" width="100px"></td>
+												<td width="20%"> <img src="../../upload/<?=$status[$i]['image'];?>" alt="" height="125px" width="100px"></td>
 												<td><font size="10px" color="tomato"><a href="productDetails.php?product=<?= $x?>"><?= $x?></a></font></td>
 											</tr>
 											<tr>
